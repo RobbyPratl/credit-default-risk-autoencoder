@@ -1,0 +1,45 @@
+# Data - never commit
+data/
+*.parquet
+*.csv
+*.pkl
+*.joblib
+
+# Model artifacts
+models/
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code local settings
+.claude/

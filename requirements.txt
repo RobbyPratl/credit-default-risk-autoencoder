@@ -1,0 +1,10 @@
+polars>=1.0
+pandas>=2.0
+numpy
+lightgbm>=4.0
+scikit-learn
+matplotlib
+seaborn
+missingno
+jupyter
+pytest
